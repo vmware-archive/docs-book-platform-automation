@@ -17,7 +17,7 @@ sections:
 - repository:
     name: pivotal-cf/docs-tippo
   directory: tippo
-  subnav_template: tippo_subnav.erb       
+  subnav_template: tippo_subnav.erb
   dependent_sections:
   - repository:
       name: pivotal-cf/pcf-installer
