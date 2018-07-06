@@ -23,4 +23,4 @@ sections:
       name: pivotal-cf/pcf-installer
     no-docs: true
 
-book_title: Ops Blocks Documentation (Alpha)
+book_title: Platform Automation for PCF Documentation (Alpha)
