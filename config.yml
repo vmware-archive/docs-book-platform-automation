@@ -15,12 +15,12 @@ public_host: hello
 
 sections:
 - repository:
-    name: pivotal-cf/docs-tippo
+    name: pivotal-cf/docs-platform-automation
   directory: pcf-automation
   subnav_template: pcf-automation_subnav.erb
   dependent_sections:
   - repository:
-      name: pivotal-cf/pcf-installer
+      name: pivotal-cf/platform-automation
     no-docs: true
 
 book_title: Platform Automation for PCF Documentation (Alpha)
