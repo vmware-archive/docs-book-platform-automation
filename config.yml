@@ -60,7 +60,7 @@ sections:
     local_header_version_list:
       - url_prefix: http://docs-platform-automation.cfapps.io/pcf-automation/alpha
         display_name: Alpha
-      - url_prefix: http://docs-platform-automation.cfapps.io/pcf-automation/prereleased
+      - url_prefix: http://docs-platform-automation.cfapps.io/pcf-automation/unreleased
         display_name: Unreleased (Preview)
     dependent_sections:
       - repository:
