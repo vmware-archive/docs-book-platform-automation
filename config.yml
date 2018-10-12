@@ -27,8 +27,8 @@ sections:
     latest_stable_version: alpha
     changelog_href: https://docs-platform-automation.cfapps.io/pcf-automation/pipeline-reference.html
     local_header_img: /images/cloud_rings.png
-    local_header_title: PCF Healthwatch
-    search_placeholder: Search PCF Healthwatch
+    local_header_title: Platform Automation
+    search_placeholder: Search Platform Automation
     url_prefix: pcf-automation/alpha
     local_product_version: "ersion: Alpha"
     local_header_links: []
@@ -52,8 +52,8 @@ sections:
     latest_stable_version: alpha
     changelog_href: https://docs-platform-automation.cfapps.io/pcf-automation/pipeline-reference.html
     local_header_img: /images/cloud_rings.png
-    local_header_title: PCF Healthwatch
-    search_placeholder: Search PCF Healthwatch
+    local_header_title: Platform Automation
+    search_placeholder: Search Platform Automation
     url_prefix: pcf-automation/unreleased
     local_product_version: "ersion: Unreleased"
     local_header_links: []
