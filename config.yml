@@ -8,9 +8,6 @@ repo_link_enabled: true
 
 feedback_enabled: true
 
-broken_link_exclusions: iefix|arrowhead
-repo_link_enabled: true
-
 public_host: docs.pivotal.io
 
 elastic_search: true
@@ -19,7 +16,7 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-platform-automation
-    ref: 'release'
+    ref: release
   directory: pcf-automation/alpha
   subnav_template: pcf-automation_subnav_release.erb
   product_info:
@@ -37,14 +34,15 @@ sections:
         display_name: Alpha
       - url_prefix: http://docs-platform-automation.cfapps.io/pcf-automation/unreleased
         display_name: Unreleased (Preview)
-    dependent_sections:
-      - repository:
-         name: pivotal-cf/platform-automation
-        no-docs: true
+  dependent_sections:
+  - repository:
+      name: pivotal-cf/platform-automation
+      ref: release
+    no-docs: true
 
 - repository:
     name: pivotal-cf/docs-platform-automation
-    ref: 'develop'
+    ref: develop
   directory: pcf-automation/unreleased
   subnav_template: pcf-automation_subnav_develop.erb
   product_info:
@@ -62,9 +60,10 @@ sections:
         display_name: Alpha
       - url_prefix: http://docs-platform-automation.cfapps.io/pcf-automation/unreleased
         display_name: Unreleased (Preview)
-    dependent_sections:
-      - repository:
-         name: pivotal-cf/platform-automation
-        no-docs: true
+  dependent_sections:
+  - repository:
+      name: pivotal-cf/platform-automation
+      ref: develop
+    no-docs: true
 
 book_title: Platform Automation for PCF Documentation (Alpha)
