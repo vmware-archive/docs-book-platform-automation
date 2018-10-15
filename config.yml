@@ -34,11 +34,11 @@ sections:
         display_name: Alpha
       - url_prefix: http://docs-platform-automation.cfapps.io/pcf-automation/unreleased
         display_name: Unreleased (Preview)
-    dependent_sections:
-      - repository:
-         name: pivotal-cf/platform-automation
-         ref: release
-        no-docs: true
+  dependent_sections:
+  - repository:
+      name: pivotal-cf/platform-automation
+      ref: release
+    no-docs: true
 
 - repository:
     name: pivotal-cf/docs-platform-automation
@@ -60,10 +60,10 @@ sections:
         display_name: Alpha
       - url_prefix: http://docs-platform-automation.cfapps.io/pcf-automation/unreleased
         display_name: Unreleased (Preview)
-    dependent_sections:
-      - repository:
-         name: pivotal-cf/platform-automation
-         ref: develop
-        no-docs: true
+  dependent_sections:
+  - repository:
+      name: pivotal-cf/platform-automation
+      ref: develop
+    no-docs: true
 
 book_title: Platform Automation for PCF Documentation (Alpha)
