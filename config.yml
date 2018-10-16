@@ -30,9 +30,9 @@ sections:
     local_product_version: "ersion: Alpha"
     local_header_links: []
     local_header_version_list:
-      - url_prefix: http://docs-platform-automation.cfapps.io/pcf-automation/alpha
+      - url_prefix: http://docs-pcf-staging.cfapps.io/pcf-automation/alpha
         display_name: Alpha
-      - url_prefix: http://docs-platform-automation.cfapps.io/pcf-automation/unreleased
+      - url_prefix: http://docs-pcf-staging.cfapps.io/pcf-automation/unreleased
         display_name: Unreleased (Preview)
   dependent_sections:
   - repository:
