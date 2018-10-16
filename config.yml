@@ -1,7 +1,7 @@
 ---
 book_repo: pivotal-cf/docs-book-platform-automation
 layout_repo: pivotal-cf/docs-layout-repo
-layout_repo_ref: 'release'
+layout_repo_ref: 'edge'
 
 broken_link_exclusions: iefix|arrowhead
 repo_link_enabled: true
@@ -13,32 +13,6 @@ public_host: docs.pivotal.io
 elastic_search: true
 
 sections:
-
-- repository:
-    name: pivotal-cf/docs-platform-automation
-    ref: release
-  directory: pcf-automation/alpha
-  subnav_template: pcf-automation_subnav_release.erb
-  product_info:
-    use_local_header: true
-    latest_stable_version: alpha
-    changelog_href: https://docs-platform-automation.cfapps.io/pcf-automation/pipeline-reference.html
-    local_header_img: /images/cloud_rings.png
-    local_header_title: Platform Automation
-    search_placeholder: Search Platform Automation
-    url_prefix: pcf-automation/alpha
-    local_product_version: "ersion: Alpha"
-    local_header_links: []
-    local_header_version_list:
-      - url_prefix: http://docs-platform-automation.cfapps.io/pcf-automation/alpha
-        display_name: Alpha
-      - url_prefix: http://docs-platform-automation.cfapps.io/pcf-automation/unreleased
-        display_name: Unreleased (Preview)
-  dependent_sections:
-  - repository:
-      name: pivotal-cf/platform-automation
-      ref: release
-    no-docs: true
 
 - repository:
     name: pivotal-cf/docs-platform-automation
