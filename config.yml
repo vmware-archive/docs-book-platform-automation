@@ -1,5 +1,5 @@
 ---
-book_repo: pivotal-cf/docs-book-platform-automation
+book_repo: pivotal/docs-book-platform-automation
 layout_repo: pivotal-cf/docs-layout-repo
 layout_repo_ref: 'edge'
 
@@ -15,7 +15,7 @@ elastic_search: true
 sections:
 
 - repository:
-    name: pivotal-cf/docs-platform-automation
+    name: pivotal/docs-platform-automation
     ref: develop
   directory: pcf-automation/unreleased
   subnav_template: pcf-automation_subnav_develop.erb
@@ -36,7 +36,7 @@ sections:
         display_name: Unreleased (Preview)
   dependent_sections:
   - repository:
-      name: pivotal-cf/platform-automation
+      name: pivotal/platform-automation
       ref: develop
     no-docs: true
 
